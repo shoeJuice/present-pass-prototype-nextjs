@@ -6,7 +6,7 @@ import {Grid, GridItem, Text, Button, Box, VStack, Input} from '@chakra-ui/react
 import {useRouter} from 'next/router'
 import NextLink from 'next/link'
 
-export default function pageOne() {
+export default function PageOne() {
   return (
     <PhoneTemplate>
       <Box

@@ -9,7 +9,7 @@ import {Checkbox, CheckboxGroup} from '@chakra-ui/react'
 
 import NextLink from 'next/link'
 
-function pageTwo() {
+function PageTwo() {
 
 
   return (
@@ -50,4 +50,4 @@ function pageTwo() {
   )
 }
 
-export default pageTwo
+export default PageTwo

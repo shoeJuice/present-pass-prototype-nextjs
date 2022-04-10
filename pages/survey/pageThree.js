@@ -7,7 +7,7 @@ import {useRouter} from 'next/router'
 
 import NextLink from 'next/link'
 
-function pageThree() {
+function PageThree() {
 
   const [budgetPrice, setBudgetPrice] = useState([0, 20])
 
@@ -51,4 +51,4 @@ function pageThree() {
   )
 }
 
-export default pageThree
+export default PageThree
