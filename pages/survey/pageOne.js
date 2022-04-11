@@ -2,7 +2,7 @@ import React from 'react'
 
 import PhoneTemplate from '../../resources/templates/phoneTemplate'
 
-import {Grid, GridItem, Text, Button, Box, VStack, Input} from '@chakra-ui/react'
+import {Grid, GridItem, Text, Button, Box, VStack, Input, ScaleFade} from '@chakra-ui/react'
 import {useRouter} from 'next/router'
 import NextLink from 'next/link'
 

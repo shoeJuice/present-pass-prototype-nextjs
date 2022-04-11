@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Text, FormControl, Button, Input, FormLabel, Flex, Checkbox, Stack, Radio, RadioGroup, Switch, Select, useColorMode, useColorModeValue } from '@chakra-ui/react'
+import {Box, Text, FormControl, Button, Input, FormLabel, Flex, Checkbox, Stack, Radio, RadioGroup, Switch, Select, useColorMode, useColorModeValue, Icon } from '@chakra-ui/react'
 import {ChevronLeftIcon} from '@chakra-ui/icons'
 
 import { useRouter } from 'next/dist/client/router';
@@ -190,7 +190,14 @@ const PPForm = (props) => {
     
   >
       <Box textAlign='center'>
-          <Text margin='auto' color='white' fontSize='36px' fontWeight='bold'>Present Pass</Text>
+          <Icon viewBox='0 0 200 200' color='green.500'>
+                <path fill="currentColor" d="M0 0h315v233.447H0z"/>
+                <defs>
+                    <pattern id="a" width="1" height="1" patternContentUnits="objectBoundingBox">
+                        <use xlinkHref="#b" transform="matrix(.0008 0 0 .00108 -.002 0)"/>
+                    </pattern>
+                </defs>
+            </Icon>
       </Box>
         <Box
         >

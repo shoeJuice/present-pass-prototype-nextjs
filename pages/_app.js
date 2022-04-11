@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import {ChakraProvider, theme} from '@chakra-ui/react'
+import {ChakraProvider, theme, ScaleFade} from '@chakra-ui/react'
 
 import { AnimateSharedLayout } from 'framer-motion';
 
